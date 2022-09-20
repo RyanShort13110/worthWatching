@@ -86,7 +86,7 @@ main {
 }
 
 .movie-info span {
-    background: royalblue;
+    background: rgba(65, 105, 225, 0.3);
     border-radius: 6px;
     font-weight: bold;
     padding: 0.25rem 0.5rem;
