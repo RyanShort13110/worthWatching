@@ -13,10 +13,17 @@ header {
     background: black;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem;
-    height: 110px;
+    height: 200px;
     border-radius: 0 0 15px 15px;
+}
+
+header p{
+    font-size: 14px;
+    margin: 5px auto;
+    width: 65%;
+    text-align: center;
 }
 
 .github, .github a{
@@ -35,11 +42,12 @@ header {
     font-size: 1rem;
     padding: 0.5rem 1rem;
     margin-top: 25px;
+    align-items: flex-start;
 }
 
 h1{
   font-size: 22px;
-  margin: 5px auto;
+  margin: 10px auto;
   word-wrap: break-word;
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 }
@@ -127,7 +135,10 @@ main {
     transform: translateY(0);
 }
 
-@media all and (max-width: 330px) {
+@media all and (max-width: 500px) {
+    header{
+        height: 270px;
+    }
     h1{
       font-size: 16px;
    }
