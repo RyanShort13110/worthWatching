@@ -98,7 +98,6 @@ main {
     border-radius: 6px;
     font-weight: bold;
     padding: 0.25rem 0.5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .movie-info span.green {
     color: rgb(39, 189, 39);
@@ -145,19 +144,19 @@ main {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(65, 105, 225, 0.4);
+    background-color: rgba(65, 105, 225, 0.6);
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.3);
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #22254b;
     border: 1px solid black;
-  }
+}
 
 @media all and (max-width: 700px){
     header{
