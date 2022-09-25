@@ -62,7 +62,7 @@ form.addEventListener("submit", (e) => {
         getMovies(SEARCHAPI + searchTerm);
         search.value = "";
     }
-});
+})
 
 window.onscroll = function() {scrollFunction()};
 
@@ -73,7 +73,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 
 function topFunction() {
   document.body.scrollTop = 0;

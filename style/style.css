@@ -144,7 +144,7 @@ main {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(65, 105, 225, 0.6);
+    background: rgba(65, 105, 225, 1);
     box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.3);
     color: white;
     cursor: pointer;
@@ -154,15 +154,18 @@ main {
 }
   
 #myBtn:hover {
-    background-color: #22254b;
-    border: 1px solid black;
+    background-color: rgba(34, 37, 75, 1);
+    border: 1px solid rgba(34, 37, 75, 1);
 }
 
 @media all and (max-width: 700px){
     header{
-        height: 240px;
+        height: 210px;
     }
     header p{
-        font-size: 13px;
+        font-size: 12px;
+    }
+    .search{
+        margin: 0;
     }
 }
