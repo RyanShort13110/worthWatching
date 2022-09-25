@@ -24,6 +24,12 @@ header p{
     margin: 5px auto;
     width: 65%;
     text-align: center;
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .github, .github a{
@@ -43,6 +49,7 @@ header p{
     padding: 0.5rem 1rem;
     margin-top: 25px;
     align-items: flex-start;
+    animation: fadeIn 10s;
 }
 
 h1{
@@ -112,7 +119,7 @@ main {
 }
 
 .overview {
-    background: black;
+    background: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 2rem;
     position: absolute;
