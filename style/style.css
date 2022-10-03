@@ -33,6 +33,10 @@ header p{
     color: white;
 }
 
+#githubLogo{
+    font-size: 40px;
+}
+
 .search {
     width: 170px;
     background: transparent;
@@ -47,11 +51,8 @@ header p{
     animation: fadeIn 10s;
 }
 
-h1{
-  font-size: 22px;
-  margin: 10px auto;
-  word-wrap: break-word;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+.search:hover{
+    background: #22254b;
 }
 
 .search::placeholder {
@@ -63,6 +64,13 @@ h1{
     outline: none;
 }
 
+h1{
+    font-size: 22px;
+    margin: 10px auto;
+    word-wrap: break-word;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+  
 main {
     display: flex;
     flex-wrap: wrap;
@@ -137,11 +145,10 @@ main {
     transform: translateY(0);
 }
 
-
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     right: 30px;
     z-index: 99;
     border: none;
