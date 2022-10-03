@@ -27,6 +27,10 @@ header p{
     animation: fadeIn 6s;
 }
 
+.github{
+    padding-left: 15px;
+}
+
 .github, .github a{
     font-size: 15px;
     text-align: center;
