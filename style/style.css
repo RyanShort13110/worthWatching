@@ -113,6 +113,9 @@ main {
     font-weight: bold;
     padding: 0.25rem 0.5rem;
 }
+.movie-info span.white{
+    color: white;
+}
 
 .movie-info span.green {
     color: rgb(39, 189, 39);
